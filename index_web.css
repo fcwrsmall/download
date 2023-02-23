@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    font-family: '微软雅黑';
+    background-color: #170a14;
+}
+
+.bgtips {
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    right: 0%;
+    top: 42%;
+    z-index: 99999
+}
+
+.bgtips .bg_4_tip {
+     display: inline-block;
+    width: 80%;
+    position: absolute;
+    right: 12%;
+    top: 18%;
+}
+
+.bgtips_help {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 998
+}
+
+.bgtips_help .bg_4_tip {
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    z-index: 998;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    filter: alpha(opacity=90);
+    opacity: 0.90;
+}
+
+.con-box {
+    background: #f7f7f7;
+    margin-top: 10px;
+    padding: 10px;
+    overflow: hidden;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.bannerBox {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.bannerBox img {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.bannerBox .QrCode {
+    display: inline-block;
+    width: 32%;
+    height: auto;
+    position: absolute;
+    left: %;
+    right: 33%;
+    top: 49%;
+}
+
+.bannerBox .downloadBox {
+    display: inline-block;
+    width: 61%;
+    height: 5%;
+    position: absolute;
+    right: 19%;
+    top: 54.5%;
+
+}
+
+.DownloadImg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: %;
+    right: 10%;
+    top: 80%; 
+}
+
+/*安装教程*/
+.gameHead {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
